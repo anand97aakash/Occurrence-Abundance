@@ -4,7 +4,7 @@ library(raster)
 # base folder containing yearly MOD13A1 folders
 base_dir <- "Y:/Duanyang/VIIRS V2/VNP13A1A2"
 
-# output folder
+# output folder 
 outdir <- "E:/akash/BioSat/EVI"
 dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
 
